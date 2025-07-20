@@ -1,0 +1,43 @@
+# EXP-2
+EXP-1 C++ BY Pratyush Saha
+PRN-24070123078
+
+//EXPERIMENT 2 SIZE OF DIFFERENT OPERATORS
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a;
+    cout << "Enter an integer: ";
+    cin >> a;
+    cout << "Integer " << a << " is of size " << sizeof(a) << " bytes" << endl;
+
+    float b;
+    cout << "Enter a float value: ";
+    cin >> b;
+    cout << "Float " << b << " is of size " << sizeof(b) << " bytes" << endl;
+
+    double c;
+    cout << "Enter a double value: ";
+    cin >> c;
+    cout << "Double " << c << " is of size " << sizeof(c) << " bytes" << endl;
+
+    char d;
+    cout << "Enter a character: ";
+    cin >> d;
+    cout << "Character '" << d << "' is of size " << sizeof(d) << " bytes" << endl;
+
+    bool e;
+    cout << "Enter a boolean value (0 for false, 1 for true): ";
+    cin >> e;
+    cout << "Boolean " << e << " is of size " << sizeof(e) << " bytes" << endl;
+
+    long f;
+    cout << "Enter a long integer: ";
+    cin >> f;
+    cout << "Long integer " << f << " is of size " << sizeof(f) << " bytes" << endl;
+
+    return 0;
+}
